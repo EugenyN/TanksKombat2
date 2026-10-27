@@ -1,0 +1,26 @@
+{
+    "name": "TanksKombat2.Authoring",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.NetCode",
+        "Unity.NetCode.Authoring.Hybrid",
+        "Unity.Mathematics",
+        "Unity.Entities.Hybrid",
+        "TanksKombat2.Shared",
+        "TanksKombat2.Client",
+        "TanksKombat2.Server",
+        "Unity.Collections"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

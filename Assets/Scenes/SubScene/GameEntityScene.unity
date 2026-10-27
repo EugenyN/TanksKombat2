@@ -1,0 +1,590 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &34546084
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1525771447942938581, guid: f997563c14c5b441a8f27a57be296294, type: 3}
+      propertyPath: m_Name
+      value: MatchState
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563239003391643041, guid: f997563c14c5b441a8f27a57be296294, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563239003391643041, guid: f997563c14c5b441a8f27a57be296294, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563239003391643041, guid: f997563c14c5b441a8f27a57be296294, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f997563c14c5b441a8f27a57be296294, type: 3}
+--- !u!1 &83804741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 83804743}
+  - component: {fileID: 83804747}
+  - component: {fileID: 83804748}
+  m_Layer: 0
+  m_Name: GameSettings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &83804743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83804741}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &83804747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83804741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7458a735bca24280aca6a5ca85a08c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: TanksKombat2.Client.Authoring::ClientSettingsComponentAuthoring
+  TileSetConfig: {fileID: 11400000, guid: f8e917cded0f1024894960ea76057fa9, type: 2}
+  PlayerColors:
+  - {r: 0.972549, g: 0.21960784, b: 0, a: 1}
+  - {r: 0, g: 0.47058824, b: 0.972549, a: 1}
+  - {r: 0, g: 0.65882355, b: 0, a: 1}
+  - {r: 0.6745098, g: 0.4862745, b: 0, a: 1}
+  - {r: 0.84705883, g: 0, b: 0.8, a: 1}
+  - {r: 0.7372549, g: 0.7372549, b: 0.7372549, a: 1}
+  - {r: 0, g: 0.53333336, b: 0.53333336, a: 1}
+  - {r: 0.53333336, g: 0.078431375, b: 0, a: 1}
+--- !u!114 &83804748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83804741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d6158223b38164583a4c49c2abac70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: TanksKombat2.Server.Authoring::ServerSettingsAuthoring
+  MatchConfig:
+    MapType: 0
+    CustomMap: 0
+    MapTheme: 2
+    MapSizePreset: 0
+    GameMode: 0
+    BotSkill: 1
+    BotCount: 0
+    RoundsToWin: 3
+    BulletVelocity: 30
+    GameModeConfig:
+      Lives: 5
+      Ammo: 20
+      BonusSpawnDelay: 10
+      BonusSpawnDelayRandom: 10
+      MaxBonusesOnScene: 5
+      AmmoInBonus: 10
+      AmmoChance: 0.5
+      InvulnerabilityTime: 4
+  GameplayConfig:
+    MapGenerationConfig:
+      Seed: 0
+      ChanceToStartAlive: 0.15
+      NumberOfSteps: 2
+      DeathLimit: 1
+      BirthLimit: 3
+    GameModeConfigs:
+      Standard:
+        Lives: 5
+        Ammo: 20
+        BonusSpawnDelay: 10
+        BonusSpawnDelayRandom: 10
+        MaxBonusesOnScene: 5
+        AmmoInBonus: 10
+        AmmoChance: 0.5
+        InvulnerabilityTime: 4
+      Pro:
+        Lives: 3
+        Ammo: 10
+        BonusSpawnDelay: 10
+        BonusSpawnDelayRandom: 10
+        MaxBonusesOnScene: 5
+        AmmoInBonus: 5
+        AmmoChance: 0.5
+        InvulnerabilityTime: 3
+      FireAndIron:
+        Lives: 5
+        Ammo: 1
+        BonusSpawnDelay: 2
+        BonusSpawnDelayRandom: 2
+        MaxBonusesOnScene: 5
+        AmmoInBonus: 1
+        AmmoChance: 0.7
+        InvulnerabilityTime: 1
+      QuickDeath:
+        Lives: 16
+        Ammo: 40
+        BonusSpawnDelay: 5
+        BonusSpawnDelayRandom: 5
+        MaxBonusesOnScene: 5
+        AmmoInBonus: 10
+        AmmoChance: 0.5
+        InvulnerabilityTime: 0
+    BotAiConfig:
+      AiSpeed: 0.6
+      AiSpeedSkillFactor: -0.1
+      MoveStepDelay: 0.2
+      MoveStepDelaySkillFactor: -0.05
+      MoveStepDelayRandom: 0.1
+      EscapeChance: 0.5
+      EscapeChanceSkillFactor: 0.2
+      AttackChance: 0.8
+      AttackChanceSkillFactor: 0.2
+      StrafeChance: 0.6
+      StrafeChanceSkillFactor: 0.2
+      EscapeSearchRadius: 8
+      EscapeAttempts: 12
+  MapSizesConfig: {fileID: 11400000, guid: a90199e1ee245c44193419b6f1d6546d, type: 2}
+--- !u!1 &392299963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 392299965}
+  - component: {fileID: 392299964}
+  m_Layer: 0
+  m_Name: GamePrefabs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &392299964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392299963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3cb83ba157a4c04993e07b90ad28dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tank: {fileID: 700954011552825696, guid: adc60907807514fb7954a1aa25776eec, type: 3}
+  Bullet: {fileID: 4440235226870903317, guid: 76e3e5acde5e440efb5fe01af44afc72, type: 3}
+  Bonus: {fileID: 1179405006722280534, guid: 22681d06f3b7a4c5a999a7a7aa16bd15, type: 3}
+  Wall: {fileID: 1179405006722280534, guid: c1ec2325667626247b1704a92c874a19, type: 3}
+  Explosion: {fileID: 5949778397910890916, guid: 9fefc50ec1ad9984da68acb36dd51d45, type: 3}
+  ShotVfx: {fileID: 5949778397910890916, guid: 4db78a72a99464a4c8974169e052afbb, type: 3}
+  HealthBar: {fileID: 1001001001001, guid: 3e6ab8d2359d4b52b22842e6f4c61d0c, type: 3}
+--- !u!4 &392299965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392299963}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &566328910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 566328911}
+  - component: {fileID: 566328912}
+  m_Layer: 0
+  m_Name: AudioSettings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &566328911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566328910}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &566328912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566328910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f22c27fa704af3b613d40bdd2cd662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: TanksKombat2.Client::AudioSettingsDataAuthoring
+  Clips:
+  - key: 0
+    value: {fileID: 8300000, guid: 5613645515a5b3e4da772305773a4169, type: 3}
+  - key: 1
+    value: {fileID: 8300000, guid: d94be892e93841b47a6a2b5714e5e427, type: 3}
+  - key: 2
+    value: {fileID: 8300000, guid: 85965390202fd8840abb72f8cc9cde38, type: 3}
+  - key: 3
+    value: {fileID: 8300000, guid: 3c29b1e59c41ac84db5b57545df97c0f, type: 3}
+  - key: 4
+    value: {fileID: 8300000, guid: f0a2b94de6082864bbd56f1761cebe00, type: 3}
+  - key: 5
+    value: {fileID: 8300000, guid: 6567ada5fd061fe4684ccfed0ac9aa4e, type: 3}
+  - key: 7
+    value: {fileID: 8300000, guid: 73234d36e1c732e4f9af135e993fc241, type: 3}
+  - key: 8
+    value: {fileID: 8300000, guid: 0e61070940987274990e9326ae7fe5b5, type: 3}
+  - key: 9
+    value: {fileID: 8300000, guid: 398d8c55ecf789046aeac5cf104903c7, type: 3}
+  - key: 10
+    value: {fileID: 8300000, guid: 0398b4dcc3352b240905f3cda8a50371, type: 3}
+  - key: 11
+    value: {fileID: 8300000, guid: c13e46e87b3abd445820ce8664101eea, type: 3}
+  - key: 12
+    value: {fileID: 8300000, guid: 7488fe0b950c62b4b9f4aaf91dbd85d4, type: 3}
+  - key: 13
+    value: {fileID: 8300000, guid: 0a6a5573da745044a93f838db0e4f95b, type: 3}
+  - key: 6
+    value: {fileID: 8300000, guid: 7dcd19610a4d41649af8b311aecaa1da, type: 3}
+  AudioSource: {fileID: 7626249458662012826, guid: 9edf85a2d2a93d642914dff73305e2e8, type: 3}
+--- !u!1 &995476044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 995476048}
+  - component: {fileID: 995476047}
+  - component: {fileID: 995476046}
+  - component: {fileID: 995476049}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &995476046
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995476044}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &995476047
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995476044}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8f3a2c1b4d5e6f7081920a3b4c5d6e7f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!4 &995476048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995476044}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &995476049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995476044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ebc5034bfd4d17a32cae4beff5c778, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: TanksKombat2.Client.Authoring::TanksKombat2.Client.LevelAreaBackgroundAuthoring
+--- !u!1 &1719216090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1719216091}
+  - component: {fileID: 1719216092}
+  m_Layer: 0
+  m_Name: CustomMaps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1719216091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719216090}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1719216092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719216090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73dc7302610b4febb0fefe804f7a1c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: TanksKombat2.Server.Authoring::MapsSetAuthoring
+  CustomMaps:
+  - key: 0
+    value: {fileID: 11400000, guid: c53820b0e0d262e47be2a5c213415d63, type: 2}
+  - key: 1
+    value: {fileID: 11400000, guid: 818004a3a0480da46981883f72f32c82, type: 2}
+  - key: 2
+    value: {fileID: 11400000, guid: 74c0582a799a04c4b96a7fad3aea4573, type: 2}
+  - key: 3
+    value: {fileID: 11400000, guid: 2c9a18d870b00cf449917b5c58a33615, type: 2}
+  - key: 5
+    value: {fileID: 11400000, guid: bfdd3d7b5d6619c41b457cc898fc5b42, type: 2}
+  - key: 4
+    value: {fileID: 11400000, guid: af815030d616b024cae960fdde803d43, type: 2}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 83804743}
+  - {fileID: 566328911}
+  - {fileID: 1719216091}
+  - {fileID: 392299965}
+  - {fileID: 34546084}
+  - {fileID: 995476048}

@@ -1,0 +1,34 @@
+{
+    "name": "TanksKombat2.Client",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Burst",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Transforms",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "Unity.Entities.Graphics",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "Unity.Networking.Transport",
+        "Unity.NetCode",
+        "Unity.Services.Core",
+        "Unity.Services.Multiplayer",
+        "Unity.Services.Authentication",
+        "TanksKombat2.Shared",
+        "TanksKombat2.Bootstrap",
+        "Unity.Mathematics.Extensions"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!UNITY_SERVER || UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,8 @@
+{
+    "settingsVersion": 2,
+    "port": 0,
+    "requestTimeoutMs": 30000,
+    "enableAuditLogging": true,
+    "autoStart": true,
+    "maxWorkItemsPerFrame": 10
+}
